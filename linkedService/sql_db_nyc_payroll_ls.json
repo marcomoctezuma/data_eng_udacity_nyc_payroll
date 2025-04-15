@@ -1,0 +1,12 @@
+{
+	"name": "sql_db_nyc_payroll_ls",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=data-eng-udacity-de-sql-server.database.windows.net;initial catalog=db_nycpayroll;user id=student",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDAyRTMxRkZDLUY4OEEtNDJBQi05MDg4LThDODlENzE2ODk5RV8wZWI4NTZmZC01YTFhLTRiZDItYmI0Ny03YjczZWUwNGJiMzciDQp9"
+		}
+	}
+}

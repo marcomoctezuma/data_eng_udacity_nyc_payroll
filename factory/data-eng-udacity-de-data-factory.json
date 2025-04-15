@@ -1,0 +1,9 @@
+{
+	"name": "data-eng-udacity-de-data-factory",
+	"location": "germanywestcentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3c4b516d-63f7-43b1-b37c-3f4a1f046c7d",
+		"tenantId": "5cc54671-35be-4f32-8358-501970c53727"
+	}
+}
